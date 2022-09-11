@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ZA Player</string>
+    <string name="all_videos">All Videos</string>
+    <string name="all_folders">All Folders</string>
+    <string name="total_videos">Total Videos</string>
+    <string name="total_folders">Total Folders</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="feedback">Feedback</string>
+    <string name="themes">Themes</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="wellcome_to_world_of_entertainment">Wellcome to world of entertainment!!</string>
+    <string name="folder">Folder</string>
+    <string name="_3_25">3:25</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="loading">loading..</string>
+    <string name="semicolon">:</string>
+    <string name="backbtn">backbtn</string>
+    <string name="video_name">Video Name</string>
+    <string name="audio_track">Audio Track</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="booster">Booster</string>
+    <string name="speed">Speed</string>
+    <string name="speed_timer">Speed Timer</string>
+    <string name="pip_mode">PIP Mode</string>
+    <string name="search">Search</string>
+    <string name="info">Info</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+</resources>

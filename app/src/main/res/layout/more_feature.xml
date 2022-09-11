@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/audio"
+            android:text="@string/audio_track"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            app:iconGravity="top"
+            android:id="@+id/audiotrack"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:id="@+id/subtitles"
+            android:layout_height="match_parent"
+            app:icon="@drawable/subtitle"
+            android:text="@string/subtitles"
+            app:iconGravity="top"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/speaker"
+            android:text="@string/booster"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/audiobooster"
+            app:iconGravity="top"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/speed"
+            android:text="@string/speed"
+            android:id="@+id/speedbtn"
+            app:iconGravity="top"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/timer"
+            android:text="@string/speed_timer"
+            app:iconGravity="top"
+            android:id="@+id/timerbtn"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/picture_in_picture"
+            android:text="@string/pip_mode"
+            app:iconGravity="top"
+            android:id="@+id/pipbtn"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
